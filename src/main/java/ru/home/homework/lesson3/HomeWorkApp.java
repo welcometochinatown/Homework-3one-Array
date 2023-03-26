@@ -5,7 +5,10 @@ import java.util.Arrays;
 public class HomeWorkApp {
     public static void main(String[] args) {
 
-        // Задача №1
+        /*
+        Задача №1 || Задать целочисленный массив, состоящий из элементов 0 и 1.
+        Например [0, 1, 1, 1, 0, 1, 0] . С помощью цикла и условия заменить 0 на 1 и 1 на 0.
+        */
         int[] firstArr = {0, 1, 1, 1, 0, 1, 0};
         System.out.println(Arrays.toString(firstArr));
 
@@ -19,7 +22,10 @@ public class HomeWorkApp {
         System.out.println(Arrays.toString(firstArr));
         System.out.println("=======================================");
 
-        // Задача №2
+        /*
+        Задача №2 || Задать пустой целочисленный массив диной 100.
+        С помощью цикла заполнить его значениями 1 2 3 4 ... 100.
+        */
         int[] secondArr = new int[100];
         System.out.println(Arrays.toString(secondArr));
 
@@ -29,7 +35,10 @@ public class HomeWorkApp {
         System.out.println(Arrays.toString(secondArr));
         System.out.println("=======================================");
 
-        // Задача №3
+        /*
+        Задача №3 || Задать массив [7, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1],
+        пройти по нему циклом, и числа меньше 6 умножить на 2.
+        */
         int[] thirdArr = {7, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
         System.out.println(Arrays.toString(thirdArr));
 
@@ -41,7 +50,11 @@ public class HomeWorkApp {
         System.out.println(Arrays.toString(thirdArr));
         System.out.println("=======================================");
 
-        // Задача №4
+        /*
+        Задача №4 || Создать квадратный двумерный целочисленный массив
+        (количество строк и столбцов одинаковое), и с помощью цикла(ов).
+        заполнить его дигональные элементы единицами (можно только 1, если обе сложно).
+        */
         int[][] fourthArr = new int[5][5];
 
         for (int i = 0; i < fourthArr.length; i++) {
@@ -59,7 +72,10 @@ public class HomeWorkApp {
         }
         System.out.println("=======================================");
 
-        // Задача №5
+        /*
+        Задача №5 || Написать метод, принимающий на выход два аргумента len И initialValue,
+        и возвращающий одномерный массив типа int, каждая ячейка которого равна initialValue.
+        */
         System.out.println(Arrays.toString(printArray(10, 8)));
         System.out.println("=======================================");
     }
