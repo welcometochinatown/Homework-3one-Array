@@ -71,7 +71,7 @@ public class HomeWorkApp {
         Задача №5 || Написать метод, принимающий на выход два аргумента len И initialValue,
         и возвращающий одномерный массив типа int, каждая ячейка которого равна initialValue.
         */
-        System.out.println(Arrays.toString(printArray(10, 8)));
+        System.out.println(Arrays.toString(printArray(10, 11)));
         System.out.println("=======================================");
     }
 
@@ -79,7 +79,7 @@ public class HomeWorkApp {
     public static int[] printArray(int len, int initialValue) {
         int[] arr = new int[len];
         for (int i = 0; i < len; i++) {
-            arr[i] += initialValue;
+            arr[i] = initialValue;
         }
         return arr;
     }
