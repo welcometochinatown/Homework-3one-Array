@@ -59,16 +59,11 @@ public class HomeWorkApp {
 
         for (int i = 0; i < fourthArr.length; i++) {
             for (int j = 0; j < fourthArr[i].length; j++) {
-                if (fourthArr[i][i] == 0 && i == j) {
+                if (i == j) {
                     fourthArr[i][j] = 1;
                 }
             }
-        }
-        for (int i = 0; i < fourthArr.length; i++) {
-            for (int j = 0; j < fourthArr[i].length; j++) {
-                System.out.print(fourthArr[i][j] + " ");
-            }
-            System.out.println();
+            System.out.println(Arrays.toString(fourthArr[i]));
         }
         System.out.println("=======================================");
 
